@@ -19,34 +19,16 @@ class App extends Component{
     
     return(
     <body>
-    <div class="parent">
-        <div class="box">This is a box</div>
-        <div class='box2'>This is a box</div>
-        <div class='box3'>This is a box</div>
-        <div class='box4'>This is a box</div>
+    <div class="container">
+        <div class="box">식물키우기</div>
+        <div class='box2'>조도</div>
+        <div class='box3'>습도</div>
+        <div class='box4'>온도</div>
     </div>
     </body>
     );
   }
 }
 
-class Square extends React.Component{
-    constructor(props){
-    super(props);
-  }
-  render(){
-    const style ={
-     width:"100px",
-      height:"100px",
-      'background-color':"red",
-      display:"inline-block"
-    };
-    
-    return(
-        <div style ={style}>
-       </div>
-    )
-  }  
-}
 
 export default App;
